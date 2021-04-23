@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+https://jacobneterer.medium.com/angular-and-tailwindcss-2388fb6e0bab
+
+https://github.com/Duomly/angular9-tailwind-bank-frontend
+
+npx ng config projects.tailwindcss-angular-app.architect.build.builder @angular-builders/custom-webpack:browser
+npx ng config projects.tailwindcss-angular-app.architect.build.options.customWebpackConfig.path webpack.config.js
+npx ng config projects.tailwindcss-angular-app.architect.serve.builder @angular-builders/custom-webpack:dev-server
+npx ng config projects.tailwindcss-angular-app.architect.test.builder @angular-builders/custom-webpack:browser
+npx ng config projects.tailwindcss-angular-app.architect.test.options.customWebpackConfig.path webpack.config.js
